@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='autotasks',
-    version='1.0.3',
+    version='1.0.2',
     author='Marcelo Horita',
     author_email='datazeus.tecnologia@gmail.com.br',
     packages=['autotasks'],
