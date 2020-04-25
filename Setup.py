@@ -24,7 +24,7 @@ setup(
         'beautifulsoup4==4.8.1',
         'selenium==3.7.0',
         'pytesseract==0.3.0',
-        'psutil==5.6.5',
+        'psutil==5.7.0',
         'pywin32>=223',
         'PyPDF2==1.26.0'
     ]
