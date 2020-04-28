@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='autotasks',
-    version='1.0.3',
+    version='1.0.5',
     author='Marcelo Horita',
     author_email='datazeus.tecnologia@gmail.com.br',
     packages=['autotasks'],
@@ -20,12 +20,12 @@ setup(
         'Topic :: Scientific/Engineering :: Physics'
     ],
     install_requires=[
-        'PyAutoGUI==0.9.48',
-        'beautifulsoup4==4.8.1',
+        'PyAutoGUI>=0.9.47',
+        'beautifulsoup4>=4.8.0',
         'selenium==3.7.0',
-        'pytesseract==0.3.0',
-        'psutil==5.7.0',
+        'pytesseract>=0.3.0',
+        'psutil>=5.7.0',
         'pywin32>=223',
-        'PyPDF2==1.26.0'
+        'PyPDF2>=1.26.0'
     ]
 )
