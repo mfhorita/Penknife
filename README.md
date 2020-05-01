@@ -1,6 +1,6 @@
-Autotasks - Automatizador de tarefas:
+## Autotasks - Automatizador de tarefas:
 
-from autotasks import msg       # MsgBox tasks
+### from autotasks import msg       # MsgBox tasks
 
 	from autotasks.msg import alert
 
@@ -16,13 +16,13 @@ from autotasks import msg       # MsgBox tasks
 	def input(text='', title='', default='', root=None, timeout=None):
 	    ''' Essa função extrai todo o texto de uma determinada página e o retorna como uma string. O pdf precisa ser inserido como um caminho. Preste atenção que a página inserida precisa ser maior que 0. '''
 
-from autotasks import pdf       # PDF tasks
+### from autotasks import pdf       # PDF tasks
 	
 	def mergePDF(pdf1, pdf2, merged_path):
 	
 	def extractTextFromPDFPage(pdf_file, txt_file=None, bgn_page=1, end_page=1):
 
-from autotasks import rpa       # Robotics tasks
+### from autotasks import rpa       # Robotics tasks
 	
 	from autotasks.rpa import sleep
 
@@ -56,7 +56,7 @@ from autotasks import rpa       # Robotics tasks
 	    ''' Abre o "Run" do windows e escreve algo. '''
 
 
-from autotasks import web       # Web tasks
+### from autotasks import web       # Web tasks
 
 	from autotasks.web import re_search
 
@@ -83,7 +83,7 @@ from autotasks import web       # Web tasks
     	''' Retorna True quando o Chrome esta executanto. '''
 
 
-from autotasks import sys       # System tasks
+### from autotasks import sys       # System tasks
 
 	from autotasks.sys import sleep
 
@@ -113,7 +113,7 @@ from autotasks import sys       # System tasks
 	def waitForFile(path):
     	''' Wait until a file with the entered path exists. '''
 
-from autotasks import vba       # Excel e Word tasks
+### from autotasks import vba       # Excel e Word tasks
 	
 	''' Constantes e funções do Word -'''
 
