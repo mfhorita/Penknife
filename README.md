@@ -1,4 +1,10 @@
-## Autotasks - Automatizador de tarefas:
+## Autotasks
+
+### Pacote que ajuda automatizar processos web, sys, rpa, vba, msg e pdf
+
+#### Baixar webdriver chrome em https://chromedriver.chromium.org/downloads e salvar em ..\Lib\site-packages\autotasks\bin\win32
+
+## Automatizador de tarefas:
 
 ### from autotasks import msg       # MsgBox tasks
 
