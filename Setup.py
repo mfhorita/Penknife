@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='autotasks',
-    version='1.0.5',
+    version='2020.12.10',
     author='Marcelo Horita',
     author_email='datazeus.tecnologia@gmail.com.br',
     packages=['autotasks'],
@@ -22,7 +22,7 @@ setup(
     install_requires=[
         'PyAutoGUI>=0.9.47',
         'beautifulsoup4>=4.8.0',
-        'selenium==3.7.0',
+        'selenium>=3.7.0',
         'pytesseract>=0.3.0',
         'psutil>=5.7.0',
         'pywin32>=223',
