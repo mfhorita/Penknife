@@ -1,20 +1,20 @@
-## Autotasks
+## Penknife
 
 ### Pacote que ajuda automatizar processos web, sys, rpa, vba, msg e pdf
 
-#### Baixar webdriver chrome em https://chromedriver.chromium.org/downloads e salvar em ..\Lib\site-packages\autotasks\bin\win32
+#### Baixar webdriver chrome em https://chromedriver.chromium.org/downloads e salvar em ..\Lib\site-packages\penknife\bin\win32
 
 ## Automatizador de tarefas:
 
-### from autotasks import msg       # MsgBox tasks
+### from penknife import msg       # MsgBox tasks
 
-	from autotasks.msg import alert
+	from penknife.msg import alert
 
-	from autotasks.msg import prompt
+	from penknife.msg import prompt
 
-	from autotasks.msg import confirm
+	from penknife.msg import confirm
 
-	from autotasks.msg import password
+	from penknife.msg import password
 
 	def credencial(mask='*', timeout=None):
 	    ''' Os dois primeiros argumentos são os PDFs que precisam ser mesclados, inseridos como um caminho. As páginas do pdf2 serão adicionadas ao pdf2. O PDF mesclado recebe um novo caminho especificado pelo terceiro argumento. '''
@@ -22,29 +22,29 @@
 	def input(text='', title='', default='', root=None, timeout=None):
 	    ''' Essa função extrai todo o texto de uma determinada página e o retorna como uma string. O pdf precisa ser inserido como um caminho. Preste atenção que a página inserida precisa ser maior que 0. '''
 
-### from autotasks import pdf       # PDF tasks
+### from penknife import pdf       # PDF tasks
 	
 	def mergePDF(pdf1, pdf2, merged_path):
 	
 	def extractTextFromPDFPage(pdf_file, txt_file=None, bgn_page=1, end_page=1):
 
-### from autotasks import rpa       # Robotics tasks
+### from penknife import rpa       # Robotics tasks
 	
-	from autotasks.rpa import sleep
+	from penknife.rpa import sleep
 
-	from autotasks.rpa import press
-	from autotasks.rpa import hotkey
-	from autotasks.rpa import typewrite
+	from penknife.rpa import press
+	from penknife.rpa import hotkey
+	from penknife.rpa import typewrite
 
-	from autotasks.rpa import position
-	from autotasks.rpa import mouseUp
-	from autotasks.rpa import mouseDown
-	from autotasks.rpa import moveTo
-	from autotasks.rpa import moveRel
-	from autotasks.rpa import vscroll
-	from autotasks.rpa import hscroll
-	from autotasks.rpa import dragTo
-	from autotasks.rpa import dragRel
+	from penknife.rpa import position
+	from penknife.rpa import mouseUp
+	from penknife.rpa import mouseDown
+	from penknife.rpa import moveTo
+	from penknife.rpa import moveRel
+	from penknife.rpa import vscroll
+	from penknife.rpa import hscroll
+	from penknife.rpa import dragTo
+	from penknife.rpa import dragRel
 
 	def click(x=None, y=None, clicks=1, interval=0.0, button=['left', 'right', 'double'][0],
           duration=0.0, pause=0.0, logScreenshot=None):
@@ -62,9 +62,9 @@
 	    ''' Abre o "Run" do windows e escreve algo. '''
 
 
-### from autotasks import web       # Web tasks
+### from penknife import web       # Web tasks
 
-	from autotasks.web import re_search
+	from penknife.web import re_search
 
 	def getSoupHtmlParser(url):
 	    ''' Retorna o Soup html parser do BeautifulSoup atraves do request de um site '''
@@ -89,26 +89,26 @@
     	''' Retorna True quando o Chrome esta executanto. '''
 
 
-### from autotasks import sys       # System tasks
+### from penknife import sys       # System tasks
 
-	from autotasks.sys import sleep
+	from penknife.sys import sleep
 
-	from autotasks.sys import ip_externo
-	from autotasks.sys import username
-	from autotasks.sys import architecture
-	from autotasks.sys import hostname
-	from autotasks.sys import system
+	from penknife.sys import ip_externo
+	from penknife.sys import username
+	from penknife.sys import architecture
+	from penknife.sys import hostname
+	from penknife.sys import system
 
-	from autotasks.sys import getcwd
-	from autotasks.sys import startfile
-	from autotasks.sys import folderSelect
-	from autotasks.sys import folderCreate
-	from autotasks.sys import folderRemove
-	from autotasks.sys import folderRename
-	from autotasks.sys import fileExist
-	from autotasks.sys import folderExist
-	from autotasks.sys import folderZip
-	from autotasks.sys import folderUnzip
+	from penknife.sys import getcwd
+	from penknife.sys import startfile
+	from penknife.sys import folderSelect
+	from penknife.sys import folderCreate
+	from penknife.sys import folderRemove
+	from penknife.sys import folderRename
+	from penknife.sys import fileExist
+	from penknife.sys import folderExist
+	from penknife.sys import folderZip
+	from penknife.sys import folderUnzip
 
 	def processRunning(name):
 	    ''' Checks if given process name (name) is currently running on the system. Returns True or False. '''
@@ -119,7 +119,7 @@
 	def waitForFile(path):
     	''' Wait until a file with the entered path exists. '''
 
-### from autotasks import vba       # Excel e Word tasks
+### from penknife import vba       # Excel e Word tasks
 	
 	''' Constantes e funções do Word -'''
 

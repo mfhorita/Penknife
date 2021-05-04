@@ -3,16 +3,16 @@
 from setuptools import setup
 
 setup(
-    name='autotasks',
-    version='2020.12.10',
+    name='penknife',
+    version='2021.05.04',
     author='Marcelo Horita',
     author_email='datazeus.tecnologia@gmail.com.br',
-    packages=['autotasks'],
+    packages=['penknife'],
     description='Pacote de automação de processos',
     long_description='Pacote que ajuda automatizar processos web, sys, rpa, vba, msg e pdf',
     url='https://github.com/mfhorita',
     license='GNU',
-    keywords='autotasks vba rpa msg pdf web scrapy sys',
+    keywords='penknife autotasks vba rpa msg pdf web scrapy sys',
     classifiers=[
         'Natural Language :: Portuguese (Brazilian)',
         'Operating System :: OS Independent',
