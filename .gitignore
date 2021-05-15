@@ -2,7 +2,7 @@
 tutorial
 build
 dist
-autotasks.egg-info
+penknife.egg-info
 
 # Windows image file caches
 Thumbs.db

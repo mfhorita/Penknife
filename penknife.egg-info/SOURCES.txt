@@ -1,5 +1,10 @@
+.gitattributes
+.gitignore
 LICENSE.txt
 README.md
+Setup.cfg
+Setup.py
+commit
 setup.cfg
 setup.py
 penknife/__init__.py
@@ -15,3 +20,6 @@ penknife.egg-info/SOURCES.txt
 penknife.egg-info/dependency_links.txt
 penknife.egg-info/requires.txt
 penknife.egg-info/top_level.txt
+penknife/bin/WebDriver.url
+penknife/bin/win32/chromedriver.exe
+penknife/pictures/pycharm.png

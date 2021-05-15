@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='penknife',
-    version='2021.05.04',
+    version='2021.05.09',
     author='Marcelo Horita',
     author_email='datazeus.tecnologia@gmail.com.br',
     packages=['penknife'],
