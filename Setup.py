@@ -11,14 +11,16 @@ setup(
     description='Pacote de automação de processos',
     long_description='Pacote que ajuda automatizar processos web, sys, rpa, vba, msg e pdf',
     url='https://github.com/mfhorita',
-    license='GNU',
+    license='MIT License',
     keywords='penknife autotasks vba rpa msg pdf web scrapy sys',
     classifiers=[
-        'Natural Language :: Portuguese (Brazilian)',
+        'License :: Freeware',
+        'Programming Language :: Python',
         'Operating System :: OS Independent',
-        'Topic :: Software Development :: Internationalization',
-        'Topic :: Scientific/Engineering :: Physics'
-    ],
+        'Development Status :: 5 - Production/Stable',
+        'Natural Language :: Portuguese (Brazilian)',
+        'Intended Audience :: Developers',
+        'Topic :: Utilities'],
     install_requires=[
         'PyAutoGUI>=0.9.47',
         'beautifulsoup4>=4.8.0',
